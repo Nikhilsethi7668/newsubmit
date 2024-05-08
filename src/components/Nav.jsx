@@ -9,14 +9,14 @@ function Nav() {
             </div>
             <div className="second mid flex gap-6 underline">
                 <div className="mid flex gap-6 underline nowrap ">
-                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'> About IMSEC</h1>
-                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'>Placements</h1>
-                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'>Admission</h1>
+                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'> <a href="http://imsec.ac.in/about/about-imsec">About IMSEC</a>   </h1>
+                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'><a href="http://imsec.ac.in/placements/placement-department/2021-2022">Placements</a> </h1>
+                    <h1 className='hover:text-black hover:bg-white hover:rounded-lg hover:cursor-pointer'><a href="http://imsec.ac.in/admissions/admission-procedure">Admission</a> </h1>
 
 
                 </div>
                 <div className="right">
-                    <button className='mt-1 border rounded-lg h-[6vh] w-[7vw] hover:text-black hover:bg-white'> Contact Us</button>
+                    <button className='mt-1 border rounded-lg h-[6vh] w-[7vw] hover:text-black hover:bg-white'> <a href="http://imsec.ac.in/about/contact-us">Contact Us</a> </button>
 
                 </div>
             </div>
@@ -27,3 +27,4 @@ function Nav() {
 }
 
 export default Nav
+
