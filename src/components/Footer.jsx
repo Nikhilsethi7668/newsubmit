@@ -12,13 +12,13 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h4 className="text-white hover:bg-white hover:border rounded-xl hover:text-black">Contact Us</h4>
-                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Address: [Your Address]</p>
+                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Address: IMSEC Adhyatmik Nagar Ghaziabad</p>
 
-                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Email: info@imsec.edu</p>
-                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Phone: +1234567890</p>
+                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Email: IMSEC.info@gmail.com</p>
+                        <p className="text-gray-300 hover:bg-white hover:border rounded-xl hover:text-black">Phone:+91 1234567890</p>
                     </div>
                     <div>
-                        <h4 className="text-white">Quick Links</h4>
+                        <h4 className="text-white underline font-bold">Quick Links</h4>
                         <ul>
                             <li className='hover:bg-white hover:font-black hover:border rounded-xl hover:text-black'><a href="http://www.imsec.ac.in/" className="text-gray-300">Home</a></li>
                             <li className='hover:bg-white hover:border hover:font-black rounded-xl hover:text-black'><a href="http://imsec.ac.in/academics/courses" className="text-gray-300">Courses</a></li>
@@ -36,4 +36,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
