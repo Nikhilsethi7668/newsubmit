@@ -7,13 +7,12 @@ function Marqee() {
             <div className="start bg-black h-[100%] flex whitespace-nowrap leading-none">
 
                 <motion.h1
-                    initial={{ x: "-100" }}
-                    animate={{ x: "0" }}
-                    transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
-                    className='text-[35vh]  text-white relative top-5'>
-                    CHOOSE A RIGHT PATH CHOOSE A RIGHT PATH
+                    initial={{ x: "0" }}
+                    animate={{ x: "-100%" }}
+                    transition={{ repeat: Infinity, ease: "linear", duration: 6 }}
+                    className='text-[35vh]  text-white'>
+                    WE PROVIDE RIGHT PATH  WE PROVIDE RIGHT PATH
                 </motion.h1>
-
 
             </div>
         </div>
