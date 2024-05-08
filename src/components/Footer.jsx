@@ -18,7 +18,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white">Quick Links</h4>
                         <ul>
-                            <li><a href="/" className="text-gray-300">Home</a></li>
+                            <li><a href="http://www.imsec.ac.in/" className="text-gray-300">Home</a></li>
                             <li><a href="http://imsec.ac.in/academics/courses" className="text-gray-300">Courses</a></li>
                             <li><a href="http://imsec.ac.in/admissions/admission-procedure" className="text-gray-300">Admissions</a></li>
                             <li><a href="http://imsec.ac.in/about/contact-us" className="text-gray-300">Contact</a></li>
